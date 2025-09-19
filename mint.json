@@ -1,15 +1,15 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Autocalls",
+  "name": "Argentivaops.com",
   "logo": {
     "dark": "/resources/logo/dark.png",
     "light": "/resources/logo/light.png"
   },
   "favicon": "/favicon.png",
   "colors": {
-    "primary": "#06df4b",
-    "light": "#06df4b",
-    "dark": "#65fe50",
+    "primary": "#75aadb",
+    "light": "#75aadb",
+    "dark": "#242b47",
     "anchors": {
       "from": "#01df4a",
       "to": "#65fe50"
@@ -24,14 +24,14 @@
   },
   "topbarLinks": [{
     "name": "Home",
-    "url": "https://autocalls.ai"
+    "url": "https://argentivaops.com"
   }, {
     "name": "Support",
-    "url": "https://autocalls.ai/contact"
+    "url": "https://argentivaops.com/contact"
   }],
   "topbarCtaButton": {
     "name": "Dashboard",
-    "url": "https://app.autocalls.ai"
+    "url": "https://app.argentivaops.com"
   },
   "anchors": [{
     "name": "No-Code Automation",
@@ -196,7 +196,7 @@
     }
   ],
   "footerSocials": {
-    "linkedin": "https://www.linkedin.com/company/autocalls-ai"
+    "linkedin": "https://www.linkedin.com/company/argentivaops"
   },
   "api": {
     "baseUrl": "https://app.autocalls.ai/api/",
