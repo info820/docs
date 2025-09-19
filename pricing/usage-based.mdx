@@ -6,7 +6,7 @@ description: "Detailed explanation of how call minutes are calculated and billed
 
 # Pricing Breakdown
 
-Autocalls.ai uses a **minutes-based** system for billing. These minutes (or tokens/credits) get **deducted** from your balance each time you make or receive a call. The actual “per-minute cost” depends on your plan, and **carrier costs** are also converted into minutes. Below is how it works.
+Argentiva Ops uses a **minutes-based** system for billing. These minutes (or tokens/credits) get **deducted** from your balance each time you make or receive a call. The actual “per-minute cost” depends on your plan, and **carrier costs** are also converted into minutes. Below is how it works.
 
 ---
 
@@ -35,7 +35,7 @@ Autocalls.ai uses a **minutes-based** system for billing. These minutes (or toke
 **So a single 1-minute conversation might consume:**
 
 - **1 AI minute** (for the assistant)
-- **+ 0.5 “carrier minutes”** (converted from the carrier’s \$0.05 to half your AI cost).
+- **\+ 0.5 “carrier minutes”** (converted from the carrier’s \$0.05 to half your AI cost).
 - **= 1.5 minutes total** deducted from your plan balance.
 
 ---
@@ -43,10 +43,8 @@ Autocalls.ai uses a **minutes-based** system for billing. These minutes (or toke
 ## 3. Per-Second Billing vs. Rounding
 
 1. **AI Time**
-
    - **Measured per second**, so 70 seconds is ~1.17 minutes of AI usage.
    - Deducted exactly from your plan’s minute balance.
-
 2. **Carrier Time**
    - **Rounded to next full minute** for the network fee.
    - Then converted into a fraction of your AI plan cost to decide how many “minutes” to deduct from your credit balance.
@@ -97,12 +95,12 @@ Autocalls.ai uses a **minutes-based** system for billing. These minutes (or toke
 
 ### FAQ
 
-- **Do I pay double if user + AI talk simultaneously?**  
+- **Do I pay double if user + AI talk simultaneously?**\
   **No**, it’s based on total call duration, not per speaker concurrency.
-- **What if someone picks up then instantly hangs up?**  
+- **What if someone picks up then instantly hangs up?**\
   The AI might register a few seconds; cost is fractional for the AI, but carrier may round up to 1 minute.
 
 ---
 
-**Bottom Line**  
+**Bottom Line**\
 All calls burn **AI time** plus a **converted carrier cost** from your plan’s minute balance. Keep track of usage in your dashboard, top up if needed, and choose the plan that best suits your volume.
